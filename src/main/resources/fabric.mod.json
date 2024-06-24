@@ -8,10 +8,10 @@
 		"Marxalous"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
-	"license": "CC0-1.0",
+	"license": "MIT-license",
 	"icon": "assets/the_great_rebalance/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"client": [
 			"marxalous.the_great_rebalance.TheGreatRebalanceClient"
+		],
+		"fabric-datagen": [
+			"marxalous.the_great_rebalance.TheGreatRebalanceDataGenerator"
 		]
 	},
 	"mixins": [
