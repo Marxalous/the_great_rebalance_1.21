@@ -1,12 +1,8 @@
 package marxalous.the_great_rebalance;
 
-import marxalous.the_great_rebalance.datagen.ModBlockTagProvider;
-import marxalous.the_great_rebalance.datagen.ModItemTagProvider;
-import marxalous.the_great_rebalance.datagen.ModLootTableProvider;
-import marxalous.the_great_rebalance.datagen.ModModelProvider;
-import marxalous.the_great_rebalance.datagen.ModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import marxalous.the_great_rebalance.datagen.*;
 
 public class TheGreatRebalanceDataGenerator implements DataGeneratorEntrypoint {
 
