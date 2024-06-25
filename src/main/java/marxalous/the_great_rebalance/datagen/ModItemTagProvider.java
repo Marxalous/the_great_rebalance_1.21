@@ -1,4 +1,4 @@
-package main.java.marxalous.the_great_rebalance.datagen;
+package marxalous.the_great_rebalance.datagen;
 
 import java.util.concurrent.CompletableFuture;
 

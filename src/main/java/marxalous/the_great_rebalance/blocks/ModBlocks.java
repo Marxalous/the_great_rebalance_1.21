@@ -1,9 +1,9 @@
-package main.java.marxalous.the_great_rebalance.blocks;
+package marxalous.the_great_rebalance.blocks;
 
 import marxalous.the_great_rebalance.TheGreatRebalance;
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.RailBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 	public static final Block ENHANCED_POWERED_RAIL = registerBlock("enhanced_powered_rail",
-			new Block(AbstractBlock.Settings.copy(Blocks.POWERED_RAIL)));
+			new Block(RailBlock.Settings.copy(Blocks.POWERED_RAIL)));
 
 
 

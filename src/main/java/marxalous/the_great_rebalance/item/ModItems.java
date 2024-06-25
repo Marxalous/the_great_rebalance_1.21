@@ -1,4 +1,4 @@
-package main.java.marxalous.the_great_rebalance.item;
+package marxalous.the_great_rebalance.item;
 
 import marxalous.the_great_rebalance.TheGreatRebalance;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;

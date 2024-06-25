@@ -1,10 +1,10 @@
 package marxalous.the_great_rebalance;
 
-import main.java.marxalous.the_great_rebalance.datagen.ModBlockTagProvider;
-import main.java.marxalous.the_great_rebalance.datagen.ModItemTagProvider;
-import main.java.marxalous.the_great_rebalance.datagen.ModLootTableProvider;
-import main.java.marxalous.the_great_rebalance.datagen.ModModelProvider;
-import main.java.marxalous.the_great_rebalance.datagen.ModRecipeProvider;
+import marxalous.the_great_rebalance.datagen.ModBlockTagProvider;
+import marxalous.the_great_rebalance.datagen.ModItemTagProvider;
+import marxalous.the_great_rebalance.datagen.ModLootTableProvider;
+import marxalous.the_great_rebalance.datagen.ModModelProvider;
+import marxalous.the_great_rebalance.datagen.ModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

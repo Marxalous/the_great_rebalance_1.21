@@ -1,8 +1,8 @@
-package main.java.marxalous.the_great_rebalance.datagen;
+package marxalous.the_great_rebalance.datagen;
 
 import java.util.concurrent.CompletableFuture;
 
-import main.java.marxalous.the_great_rebalance.blocks.ModBlocks;
+import marxalous.the_great_rebalance.blocks.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;

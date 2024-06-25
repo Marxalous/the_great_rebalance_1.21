@@ -5,8 +5,9 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import main.java.marxalous.the_great_rebalance.item.ModItemGroups;
-import main.java.marxalous.the_great_rebalance.item.ModItems;
+import marxalous.the_great_rebalance.blocks.ModBlocks;
+import marxalous.the_great_rebalance.item.ModItemGroups;
+import marxalous.the_great_rebalance.item.ModItems;
 
 public class TheGreatRebalance implements ModInitializer {
 	public static final String MOD_ID = "the_great_rebalance";
@@ -16,5 +17,6 @@ public class TheGreatRebalance implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
