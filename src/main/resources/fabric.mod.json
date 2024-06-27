@@ -4,9 +4,7 @@
 	"version": "${version}",
 	"name": "The Great Rebalance",
 	"description": "Fixes to underperforming aspects of the game in a vanilla+ style.",
-	"authors": [
-		"Marxalous"
-	],
+	"authors": ["Marxalous"],
 	"contact": {
 		"homepage": "",
 		"sources": ""
@@ -15,12 +13,8 @@
 	"icon": "assets/the_great_rebalance/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"marxalous.the_great_rebalance.TheGreatRebalance"
-		],
-		"client": [
-			"marxalous.the_great_rebalance.TheGreatRebalanceClient"
-		],
+		"main": ["marxalous.the_great_rebalance.TheGreatRebalance"],
+		"client": ["marxalous.the_great_rebalance.TheGreatRebalanceClient"],
 		"fabric-datagen": [
 			"marxalous.the_great_rebalance.TheGreatRebalanceDataGenerator"
 		]

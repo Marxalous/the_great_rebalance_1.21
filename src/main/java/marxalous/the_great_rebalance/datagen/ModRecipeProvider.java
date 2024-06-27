@@ -22,22 +22,22 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 	@Override
 	public void generate(RecipeExporter exporter) {
 		ShapedRecipeJsonBuilder.create(RecipeCategory.TRANSPORTATION, ModBlocks.ENHANCED_POWERED_RAIL, 16)
-		.pattern("GRG")
-		.pattern("GSG")
-		.pattern("GRG")
-		.input('G', Items.GOLD_INGOT)
-		.input('S', Items.STICK)
-		.input('R', Items.REDSTONE)
-		.criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
-		.offerTo(exporter, Identifier.tryParse(getRecipeName(ModBlocks.ENHANCED_POWERED_RAIL)));
+				.pattern("GRG")
+				.pattern("GSG")
+				.pattern("GRG")
+				.input('G', Items.GOLD_INGOT)
+				.input('S', Items.STICK)
+				.input('R', Items.REDSTONE)
+				.criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
+				.offerTo(exporter, Identifier.tryParse(getRecipeName(ModBlocks.ENHANCED_POWERED_RAIL)));
 
 		ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GRIMSTONE_INGOT, 1)
-		.pattern("EEE")
-		.pattern("E G")
-		.pattern("GGG")
-		.input('E', Items.EMERALD)
-		.input('G', ModItems.GRIMSTONE_SCRAP)
-		.criterion(hasItem(ModItems.GRIMSTONE_SCRAP), conditionsFromItem(ModItems.GRIMSTONE_SCRAP))
-		.offerTo(exporter, Identifier.tryParse(getRecipeName(ModItems.GRIMSTONE_INGOT)));
+				.pattern("EEE")
+				.pattern("E G")
+				.pattern("GGG")
+				.input('E', Items.EMERALD)
+				.input('G', ModItems.GRIMSTONE_SCRAP)
+				.criterion(hasItem(ModItems.GRIMSTONE_SCRAP), conditionsFromItem(ModItems.GRIMSTONE_SCRAP))
+				.offerTo(exporter, Identifier.tryParse(getRecipeName(ModItems.GRIMSTONE_INGOT)));
 	}
 }

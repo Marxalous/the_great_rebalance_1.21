@@ -15,8 +15,6 @@ public class ModBlocks {
 	public static final Block ENHANCED_POWERED_RAIL = registerBlock("enhanced_powered_rail",
 			new EnhancedPoweredRailBlock(AbstractBlock.Settings.copy(Blocks.POWERED_RAIL)));
 
-
-
 	private static Block registerBlock(String name, Block block) {
 		registerBlockItem(name, block);
 		return Registry.register(Registries.BLOCK, Identifier.tryParse(TheGreatRebalance.MOD_ID + ":" + name), block);

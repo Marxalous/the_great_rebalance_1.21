@@ -1,6 +1,4 @@
 {
 	"replace": false,
-	"values": [
-		"the_great_rebalance:enhanced_powered_rail"
-	]
+	"values": ["the_great_rebalance:enhanced_powered_rail"]
 }

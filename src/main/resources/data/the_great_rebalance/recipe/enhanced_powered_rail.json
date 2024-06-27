@@ -2,23 +2,19 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "misc",
 	"key": {
-	  "#": {
-		"item": "minecraft:stick"
-	  },
-	  "R": {
-		"item": "minecraft:redstone"
-	  },
-	  "X": {
-		"item": "minecraft:gold_ingot"
-	  }
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"R": {
+			"item": "minecraft:redstone"
+		},
+		"X": {
+			"item": "minecraft:gold_ingot"
+		}
 	},
-	"pattern": [
-	  "X X",
-	  "X#X",
-	  "XRX"
-	],
+	"pattern": ["X X", "X#X", "XRX"],
 	"result": {
-	  "count": 16,
-	  "id": "the_great_rebalance:enhanced_powered_rail"
+		"count": 16,
+		"id": "the_great_rebalance:enhanced_powered_rail"
 	}
-  }
+}

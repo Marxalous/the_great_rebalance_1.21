@@ -11,7 +11,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-
 public class ModItems {
 	public static final Item GRIMSTONE_INGOT = registerItem("grimstone_ingot", new Item(new Item.Settings()));
 	public static final Item GRIMSTONE_SCRAP = registerItem("grimstone_scrap", new Item(new Item.Settings()));
