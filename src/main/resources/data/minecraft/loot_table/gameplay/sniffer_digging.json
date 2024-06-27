@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:gift",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:torchflower_seeds",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:pitcher_pod",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:filled_map",
+					"weight": 100,
+					"functions": [
+						{
+							"destination": "minecraft:trail_ruin",
+							"decoration": "red_x",
+							"function": "minecraft:exploration_map",
+							"skip_existing_chuncks": false,
+							"zoom": 1
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "filled_map.trail_ruin"
+							},
+							"target": "item_name"
+						}
+					]
+				}
+			]
+		}
+	],
+	"random_sequence": "minecraft:gameplay/sniffer_digging"
+}
