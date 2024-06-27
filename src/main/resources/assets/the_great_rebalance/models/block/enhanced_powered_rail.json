@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/rail_flat",
+	"textures": {
+		"rail": "the_great_rebalance:block/enhanced_powered_rail"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_rail_raised_sw",
+	"textures": {
+		"rail": "the_great_rebalance:block/enhanced_powered_rail_on"
+	}
+}

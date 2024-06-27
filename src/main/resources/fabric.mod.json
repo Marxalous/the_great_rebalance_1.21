@@ -4,22 +4,19 @@
 	"version": "${version}",
 	"name": "The Great Rebalance",
 	"description": "Fixes to underperforming aspects of the game in a vanilla+ style.",
-	"authors": [
-		"Marxalous"
-	],
+	"authors": ["Marxalous"],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
-	"license": "CC0-1.0",
+	"license": "MIT-license",
 	"icon": "assets/the_great_rebalance/icon.png",
 	"environment": "*",
 	"entrypoints": {
-		"main": [
-			"marxalous.the_great_rebalance.TheGreatRebalance"
-		],
-		"client": [
-			"marxalous.the_great_rebalance.TheGreatRebalanceClient"
+		"main": ["marxalous.the_great_rebalance.TheGreatRebalance"],
+		"client": ["marxalous.the_great_rebalance.TheGreatRebalanceClient"],
+		"fabric-datagen": [
+			"marxalous.the_great_rebalance.TheGreatRebalanceDataGenerator"
 		]
 	},
 	"mixins": [

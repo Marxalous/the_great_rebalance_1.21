@@ -2,9 +2,7 @@
 	"required": true,
 	"package": "marxalous.the_great_rebalance.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
+	"mixins": ["ExampleMixin"],
 	"injectors": {
 		"defaultRequire": 1
 	}
