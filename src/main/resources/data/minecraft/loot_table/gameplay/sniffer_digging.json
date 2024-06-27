@@ -22,7 +22,7 @@
 					"functions": [
 						{
 							"function": "minecraft:exploration_map",
-							"destination": "minecraft:trail_ruins",
+							"destination": "minecraft:on_trail_ruins_maps",
 							"decoration": "target_x",
 							"zoom": 1,
 							"skip_existing_chuncks": true
