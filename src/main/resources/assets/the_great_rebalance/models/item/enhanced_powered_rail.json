@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+	  "layer0": "the_great_rebalance:block/enhanced_powered_rail"
+	}
+  }

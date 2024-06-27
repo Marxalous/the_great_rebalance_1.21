@@ -1,6 +1,7 @@
 package marxalous.the_great_rebalance.item;
 
 import marxalous.the_great_rebalance.TheGreatRebalance;
+import marxalous.the_great_rebalance.blocks.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -20,6 +21,7 @@ public class ModItemGroups {
 					.entries((displayContext, entries) -> {
 						entries.add(ModItems.GRIMSTONE_INGOT);
 						entries.add(ModItems.GRIMSTONE_SCRAP);
+						entries.add(ModBlocks.ENHANCED_POWERED_RAIL);
 					})
 					.build());
 
