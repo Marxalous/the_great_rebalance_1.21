@@ -8,24 +8,30 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:torchflower_seeds",
-					"weight": 1
+					"weight": 20
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:pitcher_pod",
-					"weight": 1
+					"weight": 20
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:filled_map",
-					"weight": 100,
+					"name": "minecraft:map",
+					"weight": 1,
 					"functions": [
 						{
-							"destination": "minecraft:trail_ruin",
-							"decoration": "red_x",
 							"function": "minecraft:exploration_map",
-							"skip_existing_chuncks": false,
-							"zoom": 1
+							"destination": "minecraft:trail_ruins",
+							"decoration": "target_x",
+							"zoom": 1,
+							"skip_existing_chuncks": true
+						},
+						{
+							"function": "set_components",
+							"components": {
+								"minecraft:map_color": 16675350
+							}
 						},
 						{
 							"function": "minecraft:set_name",
