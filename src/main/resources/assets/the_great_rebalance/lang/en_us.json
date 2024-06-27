@@ -6,5 +6,8 @@
 
 	"block.the_great_rebalance.enhanced_powered_rail": "Enhanced Powered Rail",
 
-	"filled_map.trail_ruin": "Ruin Explorer Map"
+	"filled_map.trail_ruin": "Ruin Explorer Map",
+	"filled_map.jungle_temple": "Jungle Explorer Map",
+	"filled_map.trial_chambers": "Trial Explorer Map",
+	"filled_map.pillager_outpost": "Outpost Explorer Map"
 }
