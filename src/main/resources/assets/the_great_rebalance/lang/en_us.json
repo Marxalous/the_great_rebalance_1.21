@@ -1,6 +1,8 @@
 {
 	"itemgroup.the_great_rebalance": "The Great Rebalance",
 
+	"item.the_great_rebalance.outpost_key": "Outpost Key",
+	"item.the_great_rebalance.ominous_outpost_key": "Ominous Outpost Key",
 	"item.the_great_rebalance.grimstone_ingot": "Grimstone Ingot",
 	"item.the_great_rebalance.grimstone_scrap": "Grimstone Scrap",
 
@@ -9,5 +11,6 @@
 	"filled_map.trail_ruin": "Ruin Explorer Map",
 	"filled_map.jungle_temple": "Jungle Explorer Map",
 	"filled_map.trial_chambers": "Trial Explorer Map",
-	"filled_map.pillager_outpost": "Outpost Explorer Map"
+	"filled_map.pillager_outpost": "Outpost Explorer Map",
+	"filled_map.woodland_mansion": "Woodland Explorer Map"
 }

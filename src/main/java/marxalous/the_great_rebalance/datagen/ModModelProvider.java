@@ -21,6 +21,8 @@ public class ModModelProvider extends FabricModelProvider {
 
 	@Override
 	public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+		itemModelGenerator.register(ModItems.OUTPOST_KEY, Models.GENERATED);
+		itemModelGenerator.register(ModItems.OMINOUS_OUTPOST_KEY, Models.GENERATED);
 		itemModelGenerator.register(ModItems.GRIMSTONE_INGOT, Models.GENERATED);
 		itemModelGenerator.register(ModItems.GRIMSTONE_SCRAP, Models.GENERATED);
 	}

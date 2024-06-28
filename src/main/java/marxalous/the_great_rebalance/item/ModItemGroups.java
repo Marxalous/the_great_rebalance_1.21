@@ -19,9 +19,11 @@ public class ModItemGroups {
 					.displayName(Text.translatable("itemgroup.the_great_rebalance"))
 					.icon(() -> new ItemStack(Items.ACACIA_BOAT))
 					.entries((displayContext, entries) -> {
+						entries.add(ModBlocks.ENHANCED_POWERED_RAIL);
+						entries.add(ModItems.OUTPOST_KEY);
+						entries.add(ModItems.OMINOUS_OUTPOST_KEY);
 						entries.add(ModItems.GRIMSTONE_INGOT);
 						entries.add(ModItems.GRIMSTONE_SCRAP);
-						entries.add(ModBlocks.ENHANCED_POWERED_RAIL);
 					})
 					.build());
 

@@ -1,0 +1,72 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:goat_horn"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:set_instrument",
+					"options": "#minecraft:regular_goat_horns"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 1,
+				"min": 0
+			}
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "minecraft:uniform",
+								"max": 20,
+								"min": 5
+							},
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:crossbow",
+					"weight": 4
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 1,
+				"min": 0
+			}
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"options": "#minecraft:on_random_loot"
+						}
+					],
+					"name": "minecraft:book"
+				}
+			],
+			"rolls": {
+				"type": "minecraft:uniform",
+				"max": 1,
+				"min": 0
+			}
+		}
+	],
+	"random_sequence": "minecraft:chests/outpost/reward_ominous_rare"
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+	  {
+		"bonus_rolls": 0,
+		"conditions": [
+		  {
+			"condition": "minecraft:survives_explosion"
+		  }
+		],
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "the_great_rebalance:enhanced_powered_rail"
+		  }
+		],
+		"rolls": 1
+	  }
+	],
+	"random_sequence": "the_great_rebalance:blocks/enhanced_powered_rail"
+  }
